@@ -46,7 +46,6 @@ vendor/lib/liboplus_audio_config.so
 vendor/lib/librt_extamp_intf.so
 vendor/lib/libspeech_enh_lib.so;FIX_SONAME
 vendor/lib/libspeechparser_vendor.so
-vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib/libmtkspparser.so
 vendor/lib64/libmtkspparser.so
