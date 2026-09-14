@@ -71,6 +71,11 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
     'vendor/lib64/hw/audio.primary.mt6785.so': blob_fixup()
         .replace_needed('libalsautils.so', 'libalsautils-v31.so'),
+    ('vendor/lib64/libcodec2_mtk_vdec.so', 'vendor/lib64/libcodec2_mtk_venc.so'): blob_fixup()
+        .replace_needed(
+            'vendor.oplus.hardware.performance-V1-ndk_platform.so',
+            'vendor.oplus.hardware.performance-V1-ndk.so',
+        ),
     'vendor/lib64/libmnl.so': blob_fixup()
         .add_needed('libcutils.so'),
     ('vendor/lib64/lib3a.flash.so', 'vendor/lib64/lib3a.ae.stat.so', 'vendor/lib64/lib3a.sensors.color.so', 'vendor/lib64/lib3a.sensors.flicker.so', 'vendor/lib64/libaaa_ltm.so'): blob_fixup()

@@ -46,6 +46,7 @@ vendor/lib/liboplus_audio_config.so
 vendor/lib/librt_extamp_intf.so
 vendor/lib/libspeech_enh_lib.so;FIX_SONAME
 vendor/lib/libspeechparser_vendor.so
+vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib/libmtkspparser.so
 vendor/lib64/libmtkspparser.so
@@ -1123,7 +1124,6 @@ vendor/lib64/libcodec2_soft_mtk_wmadec.so
 vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libformatter.so
-vendor/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
 
 # Neural Networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron
