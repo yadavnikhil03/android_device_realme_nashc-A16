@@ -133,6 +133,13 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
+# Nashc SystemUI layout overrides
+PRODUCT_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-buildtime
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-buildtime
 PRODUCT_PACKAGES += \
     ApertureOverlayNashc \
     DeviceAsWebcamOverlayNashc \
