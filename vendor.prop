@@ -211,6 +211,12 @@ ro.lmk.use_psi=true
 ro.lmk.use_minfree_levels=false
 ro.lmk.thrashing_limit_decay=50
 ro.lmk.downgrade_pressure=30
+ro.lmk.swap_free_low_percentage=20
+ro.lmk.psi_partial_stall_ms=70
+
+# Dalvik & Dex2oat tuning for 4GB RAM
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.boot-dex2oat-threads=4
 
 # Sensors
 ro.vendor.mtk.sensor.support=yes
