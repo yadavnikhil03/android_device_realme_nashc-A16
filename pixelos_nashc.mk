@@ -11,9 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/nashc/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixelos/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_nashc
+PRODUCT_NAME := pixelos_nashc
 PRODUCT_DEVICE := nashc
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := Realme

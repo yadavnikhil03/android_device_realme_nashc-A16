@@ -4,4 +4,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nashc.mk
+    $(LOCAL_DIR)/pixelos_nashc.mk
+
+COMMON_LUNCH_CHOICES := pixelos_nashc-userdebug
+
